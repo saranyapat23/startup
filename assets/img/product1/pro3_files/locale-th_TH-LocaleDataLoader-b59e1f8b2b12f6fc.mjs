@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([["61242"],{669649:function(n,o,r){r.r(o),r.d(o,{default:()=>u});var t=r(925023),e=r.n(t);function u({children:n}){return n(e())}},925023:function(n,o,r){n.exports={locale:"th-TH",i18nStrings:void 0,plural:r(617698)}},617698:function(n){n.exports=function(n){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-th_TH-LocaleDataLoader-b59e1f8b2b12f6fc.mjs.map
