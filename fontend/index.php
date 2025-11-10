@@ -1,6 +1,3 @@
-<?php
-// ถ้ามีโค้ด PHP สามารถใส่ไว้ตรงนี้ได้ เช่น include config หรือ session_start();
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,11 +10,19 @@
  
   
 </head>
+    <header> 
+    <nav class="navpro">
+        <div class="logo">Slide And Away</div>
 
-<body>
-  <!-- Navbar -->
-  <?php include '../fontend/navbar/navbar.php'; ?>
-<main>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+        </header>
+
 
 
   <!-- 🏠 SECTION: Home -->
@@ -255,9 +260,6 @@
 
 
 
-
-
-</main>
 </body>
   <script src="../assets/js/app.js"></script>
 </html>
